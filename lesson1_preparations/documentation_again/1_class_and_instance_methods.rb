@@ -1,4 +1,4 @@
-# Class and Instance Methods
+# Class and Instance Methods, ruby-lang.org
 
 =begin
 docs.ruby-lang.org
