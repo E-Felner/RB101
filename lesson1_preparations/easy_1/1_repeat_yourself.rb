@@ -7,3 +7,12 @@ def repeat(string, integer)
 end
 
 repeat('Hello', 3)
+
+=begin
+def repeat(msg, iteration)
+  while iteration > 0
+    puts msg
+    iteration -= 1
+  end
+end 
+=end
