@@ -22,3 +22,15 @@ def triangle(num)
 end
 
 triangle(5)
+
+=begin
+input is positive integer
+output is print the integer number of lines
+
+method takes positive integer as argument
+  print (integer - 1) spaces then *
+  print (integer - 2) spaces then 2 *'s
+  ...
+  ...
+  print integer *'s
+=end

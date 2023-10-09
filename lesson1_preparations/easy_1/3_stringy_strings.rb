@@ -49,3 +49,34 @@ end
 puts stringy(6, 1)
 puts stringy(6, 0)
 =end
+
+=begin
+Stringy Strings
+Write method that takes positive integer as argument
+-return a string alternating 1s and 0s always starting at 1
+-length should match positive integer
+
+Pseudo
+?????????????
+=end
+
+=begin
+def stringy(number)
+  a = []
+  1.upto(number) { |i| a << i }
+  string = ''
+  a.each_index do |index|
+    if index == 0 || index.even?
+      string << '1'
+    else
+      string << '0'
+    end
+  end
+  string
+end
+
+puts stringy(6)
+puts stringy(9)
+puts stringy(4)
+puts stringy(7)
+=end
