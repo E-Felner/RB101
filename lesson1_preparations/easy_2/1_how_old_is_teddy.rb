@@ -10,3 +10,15 @@ if name.empty?
 else
   puts "#{name} is #{age} years old!"
 end
+
+=begin
+input random integer between 20 and 200
+output print string with Teddy's age
+
+generate random integer between 20 and 200
+print string and interpolate the random number in for Teddy's age
+
+age = rand(20..200)
+
+puts "Teddy's age is #{age} years old."
+=end

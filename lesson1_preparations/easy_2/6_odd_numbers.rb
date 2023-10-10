@@ -23,3 +23,21 @@ end
 
 1.upto(99) { |i| puts i if i.odd? }
 =end
+
+=begin
+input is the integer range 1..99
+output are strings
+
+iterate through 1..99
+  if the number is odd then print number
+  if not then next number
+
+
+(1..99).each do |i|
+  if i.odd?
+    puts i
+  else
+    next
+  end
+end
+=end

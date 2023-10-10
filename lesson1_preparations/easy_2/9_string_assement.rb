@@ -19,5 +19,5 @@ outputs:
 BOB
 BOB
 
-The method #upcase! is a destructive method, in other words, #upcase! permanently changes 'Bob' to 'BOB'.
+The method #upcase! is a destructive/mutating method, in other words, #upcase! permanently changes 'Bob' to 'BOB'.
 =end

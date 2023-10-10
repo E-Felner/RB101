@@ -63,3 +63,14 @@ else
   puts "Oops. Unknown operation."
 end
 =end
+
+=begin
+input string
+output string
+
+get integer greater than 0 from integer
+ask user what calculation they want to perform
+ either sum or product
+calculate the answer
+print a string relaying the answer to the user
+=end

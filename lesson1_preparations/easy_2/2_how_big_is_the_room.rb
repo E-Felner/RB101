@@ -28,3 +28,14 @@ square_feet = (square_meters * SQMETERS_TO_SQFEET).round(2)
 puts "The area of the room is #{square_meters} " + \
      "square meters (#{square_feet} square feet)."
 =end
+
+=begin
+input two integers as strings
+output float
+
+get two integers as strings from user to be length and width in meters
+  convert to integers
+multiply the two numbers to get the area in meters**2
+  convert to feet**2
+print a string with both the meters**2 and feet**2 interpolated
+=end

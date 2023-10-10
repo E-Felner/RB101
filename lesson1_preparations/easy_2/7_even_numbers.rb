@@ -21,3 +21,21 @@ while value <= 99
   value += 1
 end
 =end
+
+=begin
+input is the integer range 1..99
+output are strings
+
+iterate through 1..99
+  if the number is even then print number
+  if not then next number
+
+
+(1..99).each do |i|
+  if i.even?
+    puts i
+  else
+    next
+  end
+end
+=end
