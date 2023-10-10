@@ -32,10 +32,17 @@ iterate through 1..99
   if the number is odd then print number
   if not then next number
 
-
 (1..99).each do |i|
   if i.odd?
     puts i
+  else
+    next
+  end
+end
+
+(1..99).select do |num|
+  if num.odd?
+    puts num
   else
     next
   end

@@ -24,7 +24,7 @@ puts [sentence_1, sentence_2, etc.].sample
 =end
 
 # could read in text file then use Kernel#format to interpolate into file
-
+# another used hash
 =begin
 input are 4 strings
 output is a string including the input strings

@@ -34,3 +34,15 @@ method takes positive integer as argument
   ...
   print integer *'s
 =end
+
+# saw some other's with case, but this one was explained
+=begin
+def triangle(n, pos = 'bottom-right')
+  row_nums = (1..n).to_a
+  shape = row_nums.map {|line_n| "#{' ' * (n - line_n)}#{'*' * line_n}" }
+  shape.reverse! if pos.include?('top')
+  shape.map! { |ln| ln.reverse } if pos.include?('left') #shape.map!(&:reverse)
+
+  puts shape
+end
+=end
