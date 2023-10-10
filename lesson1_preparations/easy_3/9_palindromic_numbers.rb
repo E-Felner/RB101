@@ -18,6 +18,9 @@ p palindromic_number?(123210)
 p palindromic_number?(22)
 p palindromic_number?(5)
 
+p palindromic_number?(04540)
+p palindromic_number?(00363)
+p palindromic_number?(00213)
 
 =begin
 def palindrome?(string)

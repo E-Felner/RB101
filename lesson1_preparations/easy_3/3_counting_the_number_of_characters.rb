@@ -27,3 +27,7 @@ words = gets.chomp
 number_of_characters = words.delete(' ').size
 ...
 =end
+
+=begin
+characters = words.gsub(" ", "").length
+=end

@@ -15,3 +15,6 @@ def multiply(first, second)
 end
 
 p multiply(5, 3)
+
+p multiply([1, 2, 3], 4)
+# => [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]

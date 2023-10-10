@@ -17,8 +17,13 @@ print the resullt of exponentiation
 puts 'Enter the first number:'
 first = gets.chomp.to_i
 
-puts 'Enter the second number:'
-second = gets.chomp.to_i
+second = ''
+loop do
+  puts 'Enter the second number(cannot be zero):'
+  second = gets.chomp.to_i
+  break if second != 0
+end
+
 # ALL THESE CAN BE PUT IN THE STRING INTERPOLATION
 addition = first + second
 subtraction = first - second
@@ -33,3 +38,5 @@ puts "#{first} * #{second} = #{multiplication}"
 puts "#{first} / #{second} = #{integer_division}"
 puts "#{first} % #{second} = #{modulo}"
 puts "#{first}**#{second} = #{exponentiation}"
+
+# try showing using floats

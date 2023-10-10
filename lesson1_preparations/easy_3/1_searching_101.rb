@@ -7,6 +7,7 @@
 #  if is write msg
 #  if is not write other msg
 
+=begin
 loop do
   puts '==> Enter the 1st number:'
 
@@ -26,6 +27,7 @@ loop do
   array = Array.new << first
   puts array
 end
+=end
 
 =begin
 input 6 numbers
@@ -35,7 +37,7 @@ get 6 numbers from the user
 group the first 5 numbers together
 check to see if the sixth number is in the group
 print whether or not the 6th number is in the group of first 5
-
+=end
 
 puts 'Enter the 1st number:'
 first = gets.chomp.to_i
@@ -65,4 +67,3 @@ else
 end
 
 # CLEAN UP THE GETS AND ARRAY
-=end

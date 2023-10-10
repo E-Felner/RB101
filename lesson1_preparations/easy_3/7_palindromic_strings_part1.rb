@@ -17,3 +17,16 @@ p palindrome?('madam')
 p palindrome?('Madam')
 p palindrome?("madam i'm adam")
 p palindrome?('356653')
+
+=begin
+test others answer => Arrays only
+def palindrome_array?(array)
+  array = array.join(' ')
+  array.reverse == array
+end
+test others answer => Arrays and Strings
+def palindrome?(input)
+  input = Array(input).join(' ')
+  input.reverse == input
+end
+=end

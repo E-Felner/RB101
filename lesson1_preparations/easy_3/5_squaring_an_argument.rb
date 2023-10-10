@@ -27,3 +27,5 @@ def square(n)
   multiply(n, n)
 end
 =end
+
+# change to 'power to the n' method

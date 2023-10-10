@@ -33,3 +33,4 @@ def real_palindrome?(string)
 end
 =end
 
+# check documentation String#delete, String#count, String#gsub
