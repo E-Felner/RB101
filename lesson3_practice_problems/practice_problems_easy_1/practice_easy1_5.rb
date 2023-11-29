@@ -10,4 +10,4 @@ hint: Use Ruby's range object in your solution
 
 =end
 
-p (10...100).include?(42)
+p (10...100).include?(42)     # (10..100)cover?(42)

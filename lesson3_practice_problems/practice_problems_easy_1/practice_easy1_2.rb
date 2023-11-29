@@ -17,10 +17,10 @@ Adding the bang suffix in this case, has the uniq! method changing or mutating
   the caller
 
 4) put ? before something
-
+# ? : is ternary operator for if...else but not the question?
 
 5) put ? after something
-That function will return a boolean object, meaning true or false.
+That function will usually return a boolean object, meaning true or false.
 
 6) put !! before something, like !!user_name
 Not not so ==

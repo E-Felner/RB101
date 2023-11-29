@@ -21,3 +21,6 @@ flintstones2 = Array.new
 flintstones2[0] = flintstones.key(2)
 flintstones2[1] = flintstones["Barney"]
 p flintstones2
+
+# flintstones.assoc("Barney")
+# => ["Barney", 2]]
