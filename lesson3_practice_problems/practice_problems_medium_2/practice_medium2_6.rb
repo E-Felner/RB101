@@ -11,3 +11,7 @@ def color_valid(color)
   end
 end
 
+def color_valid(color)
+  color == "blue" || color == "green"
+end
+

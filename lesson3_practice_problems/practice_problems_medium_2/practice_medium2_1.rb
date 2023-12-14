@@ -15,3 +15,13 @@ puts a.object_id
 puts b.object_id
 puts c.object_id
 
+c and a have same object id number while b is different
+=end
+
+a = "forty two"
+b = "forty two"
+c = a
+
+puts a.object_id
+puts b.object_id
+puts c.object_id
