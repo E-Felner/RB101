@@ -18,4 +18,4 @@ mutate the caller.
 numbers = [1, 2, 2, 3]
 numbers.uniq
 
-p numbers
+puts numbers

@@ -14,3 +14,7 @@ How can we add multiple items to our array? (Dino and Hoppy)
 # flintstones.concat(%w(Dino Hoppy))  # concat adds an array rather than one item
 Go over again
 =end
+
+flintstones = %w(Fred Barney Wilma Betty BamBam Pebbles)
+
+p flintstones.append("Dino", "Hoppy")

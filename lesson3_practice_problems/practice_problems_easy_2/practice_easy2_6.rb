@@ -10,3 +10,11 @@ flintstones.push("Dino")
 flintstones.append("Dino")
 # Array#concat
 =end
+
+flintstones = %w(Fred Barney Wilma Betty BamBam Pebbles)
+
+p flintstones << "Dino"
+p flintstones.push("Dino")
+p flintstones.append("Dino")
+
+p flintstones.concat(["Dino"])

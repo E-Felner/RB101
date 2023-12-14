@@ -12,7 +12,7 @@ Convert the string in the following ways(code will be executed on original
 "the munsters are creepy in a good way."
 "THE MUNSTERS ARE CREEPY IN A GOOD WAY."
 
-# 1) munsters_description.swapcase!
+1) munsters_description.swapcase!
 2) munsters_description.capitalize!
 3) munsters_description.downcase!
 4) munsters_description.upcase!
