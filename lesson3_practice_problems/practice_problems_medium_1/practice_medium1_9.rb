@@ -15,3 +15,5 @@ What would be the return value of the following method invocation?
 
 bar(foo)
 
+no
+=end

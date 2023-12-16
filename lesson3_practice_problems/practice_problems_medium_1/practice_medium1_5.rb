@@ -22,3 +22,8 @@ end
 result = fib(0, 1)
 puts "result is #{result}"
 
+self-contained scope of the method
+
+# add additional argument for limit in method
+GO OVER
+=end

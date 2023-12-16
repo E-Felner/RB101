@@ -21,3 +21,12 @@ def rolling_buffer2(input_array, max_buffer_size, new_element)
   buffer
 end
 
+first returns a reference to object passed in as buffer
+second returns a new object
+
+first mutates buffer
+
+first method returns both a meaningful value and has a side effect
+second option better
+#GO OVER
+=end

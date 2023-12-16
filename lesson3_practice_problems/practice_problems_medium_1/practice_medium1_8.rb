@@ -20,3 +20,6 @@ What is the result of the following call?
 
 puts rps(rps(rps("rock", "paper"), rps("rock", "scissors")), "rock")
 
+paper
+# use parenthesis and work it out piece by piece
+=end

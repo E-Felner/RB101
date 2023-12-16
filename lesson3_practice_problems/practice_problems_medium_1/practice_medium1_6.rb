@@ -13,3 +13,6 @@ new_answer = mess_with_it(answer)
 
 p answer - 8
 
+34
+# reassignment never mutates, creates a new object
+=end
